@@ -197,7 +197,10 @@ ul {
 
 
 
-
+.media ul li a {
+  text-decoration: none;
+  color: black;
+}
 
 
 .cybr-btn {
@@ -451,3 +454,104 @@ cursor: none;
 
 /*===================*/
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 950px) {
+
+  .distortion{
+    width: 0%;
+    height: 0%;
+  }
+
+  #cursor{
+    width: 0%;
+    height: 0%;
+  }
+
+  #inner{
+    width: 0%;
+    height: 0%;
+  }
+
+  .media ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+  }
+  
+  .text {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    left: 200px;
+    
+    
+  }
+  .text h2  img{
+    width: 80%;
+  }
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  body{
+    
+    background-repeat: no-repeat;
+    height: 100%;
+     
+
+  }
+
+  .text {
+    position: absolute;
+    top: 500px;
+    
+    
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+  body{
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+     
+
+  }
+
+  .navbar{
+    visibility: hidden;
+  }
+
+  .text {
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    
+    
+    
+  }
+  .text h2  img{
+    width: 80%;
+  }
+
+
+  .sponsor{
+    position: absolute;
+    left: 500px;
+    width: 10%;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
