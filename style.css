@@ -518,7 +518,7 @@ cursor: none;
     width: 100%;
     background-repeat: no-repeat;
     height: 100vh;
-     
+    background-image: url("https://wallpapercave.com/wp/wp6735024.jpg");
 
   }
 
@@ -544,14 +544,17 @@ cursor: none;
     left: 500px;
     width: 10%;
   }
+  .sponsor {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    text-align: center;
+    z-index: 6;
+    margin-bottom: -163%;
 
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+.text h2 img {
+  width: 150%;
+}
+}

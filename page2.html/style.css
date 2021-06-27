@@ -184,6 +184,7 @@
 
       .card-group{
           margin:  2% 5%  ;
+          background-color: black;
          
       }
 
@@ -525,4 +526,71 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+  }
+
+  @media (max-width:400px){
+    .card{
+      width: 250%;
+      margin-left: 30px;
+      padding-bottom: 27%;
+      background-color: #000;
+      margin-left: 50%;
+    }
+    .carp{
+      background-position: center;
+      
+    }
+    .border-vedio{
+      display: none;
+    }
+    .vedio{
+      position: absolute;
+    }
+    .form-container{
+     position: relative;
+      margin-left: 5px;
+    }
+    .contents-ele1{
+      width: 300%;;
+    }
+    .top{
+      width: 20%;
+    }
+    .container-1{
+      height: 140vh;
+      width: 315%;
+    }
+    .contents{
+      width: 121%;
+      background: transparent;
+      
+    padding-top: 354px;
+
+    }
+    .hide{
+      display: none;
+    }
+    .carp{
+      height: 80%;
+    }
+
+    .rotate{
+      margin-bottom: 23%;
+      text-align: center;
+    }
+    .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 1174px;
+      height: 685px;
+      margin-top: 5px;
+      padding-top: 20px;
+      border-radius: 12px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      /* background: #1f1f1f; */
+      background-image: url(https://www.animationcareerreview.com/files/images/featured/esports.jpg);
+      box-shadow: 5px 5px 10px rgb(0 0 0 / 20%);
   }
