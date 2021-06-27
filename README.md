@@ -2,7 +2,7 @@
 ![5eoz4d (1)](https://user-images.githubusercontent.com/66674173/123546606-eb624500-d77a-11eb-836f-0364f3c9db01.gif)
 
 
-#Team-Amigos
+**Team-Amigos**
 Team member-Harpreet singh and Satvik gupta
 
 Topic-ESports
